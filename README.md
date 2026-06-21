@@ -8,12 +8,13 @@
 
 | 日期 | 报告 | 主题 | 在线阅读 | PDF |
 |---|---|---|---|---|
-| — | 暂无已发布报告 | — | — | — |
+| 2026-06-21 | 电商行业研究报告 | 电商、平台经济、AI | [阅读](reports/ecommerce-industry-research/) | [下载](reports/ecommerce-industry-research/report.pdf) |
+| 2026-06-21 | 搜索引擎行业研究 | 搜索引擎、AI 搜索、平台经济 | [阅读](reports/search-engine-industry-research/) | [下载](reports/search-engine-industry-research/report.pdf) |
 
 ## 仓库结构
 
 ```text
-ysy-research/
+ysy-toC-research/
 ├── README.md
 ├── reports/
 │   └── report-slug/
@@ -34,7 +35,7 @@ ysy-research/
 
 1. 复制 [`templates/report-template.md`](templates/report-template.md) 到新的报告目录并重命名为 `README.md`。
 2. 将图片放进该报告的 `assets/` 目录，正文使用相对路径引用。
-3. 将正式 PDF 命名为 `report.pdf`。
+3. 运行 `python3 scripts/render_report_pdf.py <报告README.md> <报告目录/report.pdf>` 生成 PDF。
 4. 在本页“报告目录”登记报告。
 5. 检查隐私、数据来源和第三方素材版权后再公开发布。
 
@@ -48,4 +49,3 @@ ysy-research/
 ## 作者
 
 杨三月（杨思嫣）
-
