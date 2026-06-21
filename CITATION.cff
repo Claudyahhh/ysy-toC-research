@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite the relevant report and its author."
+title: "YSY Research"
+type: dataset
+authors:
+  - family-names: "Yang"
+    given-names: "Siyan"
+date-released: 2026-06-21
+repository-code: "https://github.com/Claudyahhh/ysy-research"
+license: "All rights reserved"
